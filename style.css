@@ -1,0 +1,21 @@
+  .square{
+    border: 1px solid white;
+    width: 100%;
+}
+.square:after {
+    content: "";
+    display: block;
+    padding-bottom: 100%;
+  }
+.black{
+    background-color: black;
+}
+.white{
+    background-color: white;
+}
+.yellow{
+    background-color: orange;
+}
+.orange{    
+    background-color: orangered;
+}
